@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on linux)" generated="20190930 13:08:07.768" rpa="false">
+<suite id="s1" name="Testsuites" source="/opt/test/testsuites">
+<suite id="s1-s1" name="Selenium" source="/opt/test/testsuites/selenium.robot">
+<test id="s1-s1-t1" name="tweakers selenium test">
+<kw name="Setup Browser" library="BrowserHelper" type="setup">
+<arguments>
+<arg>browser=${BROWSER}</arg>
+<arg>device=${DEVICE}</arg>
+<arg>url=${GUI_URL}</arg>
+</arguments>
+<msg timestamp="20190930 13:08:08.259" level="INFO">Device: Desktop</msg>
+<msg timestamp="20190930 13:08:08.259" level="INFO">Browser: chrome</msg>
+<msg timestamp="20190930 13:08:08.259" level="INFO">Opening browser 'chrome' to base url 'https://google.com/'.</msg>
+<msg timestamp="20190930 13:08:08.267" level="INFO">/home/worker/.local/bin:/opt/test/config/drivers:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/test/config/drivers
+1569847056.0</msg>
+<msg timestamp="20190930 13:08:08.268" level="FAIL">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</msg>
+<status status="FAIL" starttime="20190930 13:08:08.258" endtime="20190930 13:08:08.268"></status>
+</kw>
+<status status="FAIL" starttime="20190930 13:08:08.257" endtime="20190930 13:08:08.269" critical="yes">Setup failed:
+WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</status>
+</test>
+<status status="FAIL" starttime="20190930 13:08:07.793" endtime="20190930 13:08:08.271"></status>
+</suite>
+<status status="FAIL" starttime="20190930 13:08:07.771" endtime="20190930 13:08:08.273"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Testsuites">Testsuites</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Selenium">Testsuites.Selenium</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

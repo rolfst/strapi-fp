@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "company",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "component_company_companies",
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

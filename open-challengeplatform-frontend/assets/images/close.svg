@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="path-1" points="49 18.5413035 45.4586965 15 32 28.4587966 18.5413035 15 15 18.5413035 28.4586965 32 15 45.4587966 18.5413035 49 32 35.5413035 45.4586965 49 49 45.4587966 35.5413035 32"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grid-(desktop)" transform="translate(-619.000000, -380.000000)">
+            <g id="icon/cross" transform="translate(604.000000, 365.000000)">
+                <g>
+                    <g id="Kader">
+                        <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+                    </g>
+                    <mask id="mask-2" fill="#fff">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="shape" fill="#343434" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+version : '3'
+
+services:
+  app:
+    build:
+      context: .
+    image: app
+    container_name: bc-frontend
+    volumes: ["./src:/opt/webapps/"]

@@ -1,0 +1,30 @@
+<types>
+  <type name="Hero" desc="Image">
+    <prop string name="_id">
+      Identifer of the image
+    </prop>
+    <prop string name="ref"></prop>
+    <prop string name="refId"></prop>
+    <prop string name="source"></prop>
+  </type>
+  <type name="Challenge" desc="Challenge public model">
+    <prop string name="hero">
+      Head image of the challenge
+    </prop>
+    <prop number name="maxage" default="0">
+      Browser cache max-age in milliseconds.
+    </prop>
+    <prop boolean name="hidden" default="false">
+      Allow transfer of hidden files.
+    </prop>
+    <prop string name="index" default="index.html">
+      Default file name.
+    </prop>
+    <prop opt type="SetHeaders" name="setHeaders">
+      Function to set custom headers on response.
+    </prop>
+    <prop opt type="Promise.<RightsConfig>" name="rightsPromise">
+      The promise which will be resolved with access rights to files.
+    </prop>
+  </type>
+</types>

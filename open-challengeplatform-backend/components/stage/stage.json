@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "stage",
+    "description": "the stages for the challenges"
+  },
+  "connection": "default",
+  "collectionName": "component_stage_stages",
+  "attributes": {
+    "start": {
+      "type": "date"
+    },
+    "description": {
+      "type": "string"
+    },
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "event",
+        "selection",
+        "meeting"
+      ],
+      "required": true
+    }
+  }
+}

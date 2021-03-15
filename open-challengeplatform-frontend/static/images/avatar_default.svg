@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="150" height="150"></rect>
+    </defs>
+    <g id="01-Visitor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Profile-page-private" transform="translate(-220.000000, -230.000000)">
+            <g id="info" transform="translate(0.000000, 56.000000)">
+                <g id="business_challenge">
+                    <g id="1040635286-copy" transform="translate(220.000000, 174.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#757575" xlink:href="#path-1"></use>
+                        <path d="M90.9532533,58.1239294 C90.4835522,49.5017252 83.7325529,43 75.2500685,43 C66.7697648,43 60.0176752,49.5017252 59.5466415,58.1233173 C58.0638786,85.2770051 92.4377123,85.3072417 90.9532533,58.1239294 Z M65.0359368,58.9161482 C65.7325181,46.3500781 84.2688029,46.3724948 84.9641471,58.9161482 C86.0058644,77.6848857 63.9929824,77.7043464 65.0359368,58.9161482 Z M75.4976032,82.5 C58.0545525,82.5 47.7767049,88.9555167 46.551264,100.723307 L46,107 L52.0564066,107 C52.621191,100.875919 51.1962626,88.6087712 75.4976032,88.6087712 C99.402427,88.6087712 98.3289064,99.6511023 98.9434705,107 L105,107 C104.40965,100.875919 105.716582,82.5 75.4976032,82.5 Z" id="Shape" fill="white" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

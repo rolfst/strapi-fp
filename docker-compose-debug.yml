@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  business_challenge_backend:
+    ports:
+      - 9228:9229
+    command: "node --inspect=0.0.0.0:9229 ./node_modules/.bin/strapi dev"
+
+  business_challenge_frontend:
+    ports:
+      - 9229:9229
+    command: "node --inspect=0.0.0.0:9229 ./server/index.js"

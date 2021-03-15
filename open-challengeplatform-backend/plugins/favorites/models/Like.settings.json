@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "like_like",
+  "info": {
+    "name": "like",
+    "description": ""
+  },
+  "options": {
+    "timestamps": ["createdAt", "updatedAt"]
+  },
+  "attributes": {
+    "owner_id": {
+      "required": true,
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "target": {
+      "type": "string"
+    }
+  }
+}

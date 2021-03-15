@@ -1,0 +1,40 @@
+{
+  "csrf": {
+    "enabled": false,
+    "key": "_csrf",
+    "secret": "_csrfSecret"
+  },
+  "csp": {
+    "enabled": false,
+    "policy": {
+      "default-src": "'self'"
+    }
+  },
+  "p3p": {
+    "enabled": false,
+    "value": ""
+  },
+  "hsts": {
+    "enabled": false,
+    "maxAge": 31536000,
+    "includeSubDomains": true
+  },
+  "xframe": {
+    "enabled": false,
+    "value": "SAMEORIGIN"
+  },
+  "xss": {
+    "enabled": false,
+    "mode": "block"
+  },
+  "cors": {
+    "enabled": true,
+    "origin": "${process.env.CORS_ORIGIN || 'http://localhost:3000,http://localhost:5000,http://localhost:1337'}",
+    "headers": ["Content-Type", "Authorization", "X-Frame-Options", "kvkmasterid"]
+  },
+  "ip": {
+    "enabled": false,
+    "whiteList": [],
+    "blackList": []
+  }
+}

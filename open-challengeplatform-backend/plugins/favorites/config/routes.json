@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "Favorites.findFavorites",
+      "config": {
+        "policies": ["global.crmInterceptor"]
+      }
+    }
+  ]
+}

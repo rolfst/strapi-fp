@@ -1,0 +1,110 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://schemas.kvk.nl/schemas/kld/relatie/operaties/2016/01" xmlns:ns1="http://schemas.kvk.nl/schemas/operaties/common/2016/01" xmlns:ns2="http://schemas.kvk.nl/schemas/kld/relatie/types/2016/01" xmlns:ns3="http://schemas.kvk.nl/schemas/kld/common/types/2016/01">
+   <soapenv:Header />
+   <soapenv:Body>
+      <ns:opvragenRelatieResponse>
+         <ns:meldingen>
+            <!--1 or more repetitions:-->
+            <ns1:melding>
+               <ns1:code>?</ns1:code>
+               <!--Optional:-->
+               <ns1:omschrijving>?</ns1:omschrijving>
+               <!--Optional:-->
+               <ns1:referentie>?</ns1:referentie>
+            </ns1:melding>
+         </ns:meldingen>
+         <!--Optional:-->
+         <ns:relaties>
+            <!--1 or more repetitions:-->
+            <ns2:relatie>
+               <ns2:identifier>4BC94587-8752-44B4-9E79-A48E10201EB8</ns2:identifier>
+               <ns2:relatieGegevens>
+                  <!--Optional:-->
+                  <ns2:voornamen>Henk</ns2:voornamen>
+                  <!--Optional:-->
+                  <ns2:voorletters>H</ns2:voorletters>
+                  <!--Optional:-->
+                  <ns2:voorvoegsel>de</ns2:voorvoegsel>
+                  <!--Optional:-->
+                  <ns2:geslachtsnaam>Vries</ns2:geslachtsnaam>
+                  <!--Optional:-->
+                  <ns2:geslacht>M</ns2:geslacht>
+                  <!--Optional:-->
+                  <ns2:geboortedatum>31011984</ns2:geboortedatum>
+               </ns2:relatieGegevens>
+               <ns2:communicatieGegevens>
+                  <!--Optional:-->
+                  <ns3:emailadressen>
+                     <!--1 or more repetitions:-->
+                     <ns3:emailadres>henk.de.vries@testmail.nl</ns3:emailadres>
+                  </ns3:emailadressen>
+                  <!--Optional:-->
+                  <ns3:telefoonnummers>
+                     <!--1 or more repetitions:-->
+                     <ns3:telefoonnummer>0229123456</ns3:telefoonnummer>
+                  </ns3:telefoonnummers>
+                  <!--Optional:-->
+                  <ns3:bezoekadressen>
+                     <!--1 or more repetitions:-->
+                     <ns3:adres>
+                        <!--Optional:-->
+                        <ns3:straatnaam>?</ns3:straatnaam>
+                        <!--Optional:-->
+                        <ns3:huisnummer>?</ns3:huisnummer>
+                        <!--Optional:-->
+                        <ns3:huisletter>?</ns3:huisletter>
+                        <!--Optional:-->
+                        <ns3:huisnummertoevoeging>?</ns3:huisnummertoevoeging>
+                        <!--Optional:-->
+                        <ns3:postcode>?</ns3:postcode>
+                        <!--Optional:-->
+                        <ns3:plaats>?</ns3:plaats>
+                        <!--Optional:-->
+                        <ns3:land>?</ns3:land>
+                     </ns3:adres>
+                  </ns3:bezoekadressen>
+                  <!--Optional:-->
+                  <ns3:postadressen>
+                     <!--1 or more repetitions:-->
+                     <ns3:adres>
+                        <!--Optional:-->
+                        <ns3:straatnaam>?</ns3:straatnaam>
+                        <!--Optional:-->
+                        <ns3:huisnummer>?</ns3:huisnummer>
+                        <!--Optional:-->
+                        <ns3:huisletter>?</ns3:huisletter>
+                        <!--Optional:-->
+                        <ns3:huisnummertoevoeging>?</ns3:huisnummertoevoeging>
+                        <!--Optional:-->
+                        <ns3:postcode>?</ns3:postcode>
+                        <!--Optional:-->
+                        <ns3:plaats>?</ns3:plaats>
+                        <!--Optional:-->
+                        <ns3:land>?</ns3:land>
+                     </ns3:adres>
+                  </ns3:postadressen>
+                  <!--Optional:-->
+                  <ns3:factuuradressen>
+                     <!--1 or more repetitions:-->
+                     <ns3:adres>
+                        <!--Optional:-->
+                        <ns3:straatnaam>?</ns3:straatnaam>
+                        <!--Optional:-->
+                        <ns3:huisnummer>?</ns3:huisnummer>
+                        <!--Optional:-->
+                        <ns3:huisletter>?</ns3:huisletter>
+                        <!--Optional:-->
+                        <ns3:huisnummertoevoeging>?</ns3:huisnummertoevoeging>
+                        <!--Optional:-->
+                        <ns3:postcode>?</ns3:postcode>
+                        <!--Optional:-->
+                        <ns3:plaats>?</ns3:plaats>
+                        <!--Optional:-->
+                        <ns3:land>?</ns3:land>
+                     </ns3:adres>
+                  </ns3:factuuradressen>
+               </ns2:communicatieGegevens>
+            </ns2:relatie>
+         </ns:relaties>
+      </ns:opvragenRelatieResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,9 @@
+all:
+  link dev
+
+clean: $(dirs)
+  npm run clean
+
+dev:
+  docker-compose -f docker-compose-dev
+

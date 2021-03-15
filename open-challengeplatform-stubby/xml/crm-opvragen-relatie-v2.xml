@@ -1,0 +1,675 @@
+<s11:Envelope xmlns:s11="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:enbu="http://www.enbu.ie/">
+    <s11:Header />
+    <s11:Body>
+        <rop:opvragenRelatieResponse xmlns:cmn="http://schemas.kvk.nl/schemas/kld/common/types/2016/01" xmlns:rel="http://schemas.kvk.nl/schemas/kld/relatie/types/2016/01" xmlns:rop="http://schemas.kvk.nl/schemas/kld/relatie/operaties/2016/01" xmlns:cop="http://schemas.kvk.nl/schemas/operaties/common/2016/01">
+            <rop:meldingen>
+                <cop:melding>
+                    <cop:code>KLD0000</cop:code>
+                    <cop:omschrijving>opvragenRelatie geslaagd</cop:omschrijving>
+                </cop:melding>
+            </rop:meldingen>
+            <rop:relaties>
+                <rel:relatie>
+                    <rel:identifier>09501717-87b1-48fe-adaa-a2d4040325f1</rel:identifier>
+                    <rel:relatieGegevens>
+                        <rel:voornamen>Me-Masked-n</rel:voornamen>
+                        <rel:voorletters>M.</rel:voorletters>
+                        <rel:voorvoegsel />
+                        <rel:geslachtsnaam>Ko-Masked-i</rel:geslachtsnaam>
+                        <rel:geslacht>O</rel:geslacht>
+                        <rel:geboortedatum />
+                    </rel:relatieGegevens>
+                    <rel:communicatieGegevens>
+                        <cmn:emailadressen>
+                            <cmn:emailadres>mehr.masked-crmacp@kvk.nl</cmn:emailadres>
+                        </cmn:emailadressen>
+                        <cmn:telefoonnummers>
+                            <cmn:telefoonnummer>12345678111222</cmn:telefoonnummer>
+                        </cmn:telefoonnummers>
+                        <cmn:bezoekadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:bezoekadressen>
+                        <cmn:postadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:postadressen>
+                        <cmn:factuuradressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:factuuradressen>
+                    </rel:communicatieGegevens>
+                    <rel:betalingsvoorkeuren>
+                        <rel:indicatieAutomatischBetalen>Ja</rel:indicatieAutomatischBetalen>
+                    </rel:betalingsvoorkeuren>
+                </rel:relatie>
+                <rel:relatie>
+                    <rel:identifier>82a37a90-8ec7-4295-8dbf-7f0bbc711435</rel:identifier>
+                    <rel:relatieGegevens>
+                        <rel:voornamen>Henk</rel:voornamen>
+                        <rel:voorletters>H.</rel:voorletters>
+                        <rel:voorvoegsel>de</rel:voorvoegsel>
+                        <rel:geslachtsnaam>Vries</rel:geslachtsnaam>
+                        <rel:geslacht>M</rel:geslacht>
+                        <rel:geboortedatum />
+                    </rel:relatieGegevens>
+                    <rel:communicatieGegevens>
+                        <cmn:emailadressen>
+                            <cmn:emailadres>henk.de.test@email.com</cmn:emailadres>
+                        </cmn:emailadressen>
+                        <cmn:telefoonnummers>
+                            <cmn:telefoonnummer />
+                        </cmn:telefoonnummers>
+                        <cmn:bezoekadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:bezoekadressen>
+                        <cmn:postadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:postadressen>
+                        <cmn:factuuradressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:factuuradressen>
+                    </rel:communicatieGegevens>
+                    <rel:betalingsvoorkeuren>
+                        <rel:indicatieAutomatischBetalen>Ja</rel:indicatieAutomatischBetalen>
+                    </rel:betalingsvoorkeuren>
+                </rel:relatie>
+                <rel:relatie>
+                    <rel:identifier>072cb80d-d8ed-408c-8f42-b50ba67d5eb0</rel:identifier>
+                    <rel:relatieGegevens>
+                        <rel:voornamen>Case</rel:voornamen>
+                        <rel:voorletters>C.</rel:voorletters>
+                        <rel:voorvoegsel />
+                        <rel:geslachtsnaam>Chupolski</rel:geslachtsnaam>
+                        <rel:geslacht>F</rel:geslacht>
+                        <rel:geboortedatum />
+                    </rel:relatieGegevens>
+                    <rel:communicatieGegevens>
+                        <cmn:emailadressen>
+                            <cmn:emailadres>test@test.test</cmn:emailadres>
+                        </cmn:emailadressen>
+                        <cmn:telefoonnummers>
+                            <cmn:telefoonnummer>06123456111222</cmn:telefoonnummer>
+                        </cmn:telefoonnummers>
+                        <cmn:bezoekadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:bezoekadressen>
+                        <cmn:postadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:postadressen>
+                        <cmn:factuuradressen>
+                            <cmn:adres>
+                                <cmn:straatnaam>Da Costalaan</cmn:straatnaam>
+                                <cmn:huisnummer>1</cmn:huisnummer>
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode>3768 GH</cmn:postcode>
+                                <cmn:plaats>Soest</cmn:plaats>
+                                <cmn:land>NL</cmn:land>
+                            </cmn:adres>
+                        </cmn:factuuradressen>
+                    </rel:communicatieGegevens>
+                    <rel:betalingsvoorkeuren>
+                        <rel:indicatieAutomatischBetalen>Ja</rel:indicatieAutomatischBetalen>
+                    </rel:betalingsvoorkeuren>
+                </rel:relatie>
+                <rel:relatie>
+                    <rel:identifier>019a050a-757d-4265-8808-636c597a6b0d</rel:identifier>
+                    <rel:relatieGegevens>
+                        <rel:voornamen>Simone</rel:voornamen>
+                        <rel:voorletters>S.</rel:voorletters>
+                        <rel:voorvoegsel />
+                        <rel:geslachtsnaam>Gertz</rel:geslachtsnaam>
+                        <rel:geslacht>F</rel:geslacht>
+                        <rel:geboortedatum />
+                    </rel:relatieGegevens>
+                    <rel:communicatieGegevens>
+                        <cmn:emailadressen>
+                            <cmn:emailadres>robotsbouwen@actualcyber.space</cmn:emailadres>
+                        </cmn:emailadressen>
+                        <cmn:telefoonnummers>
+                            <cmn:telefoonnummer />
+                        </cmn:telefoonnummers>
+                        <cmn:bezoekadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:bezoekadressen>
+                        <cmn:postadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:postadressen>
+                        <cmn:factuuradressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:factuuradressen>
+                    </rel:communicatieGegevens>
+                    <rel:betalingsvoorkeuren>
+                        <rel:indicatieAutomatischBetalen>Ja</rel:indicatieAutomatischBetalen>
+                    </rel:betalingsvoorkeuren>
+                </rel:relatie>
+                <rel:relatie>
+                    <rel:identifier>bc84581f-e4c7-412a-ab87-4fa8ae3bb69e</rel:identifier>
+                    <rel:relatieGegevens>
+                        <rel:voornamen>Test</rel:voornamen>
+                        <rel:voorletters>T.</rel:voorletters>
+                        <rel:voorvoegsel />
+                        <rel:geslachtsnaam>Razortime</rel:geslachtsnaam>
+                        <rel:geslacht>O</rel:geslacht>
+                        <rel:geboortedatum />
+                    </rel:relatieGegevens>
+                    <rel:communicatieGegevens>
+                        <cmn:emailadressen>
+                            <cmn:emailadres>razor@actualcyber.space</cmn:emailadres>
+                        </cmn:emailadressen>
+                        <cmn:telefoonnummers>
+                            <cmn:telefoonnummer />
+                        </cmn:telefoonnummers>
+                        <cmn:bezoekadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:bezoekadressen>
+                        <cmn:postadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:postadressen>
+                        <cmn:factuuradressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:factuuradressen>
+                    </rel:communicatieGegevens>
+                    <rel:betalingsvoorkeuren>
+                        <rel:indicatieAutomatischBetalen>Ja</rel:indicatieAutomatischBetalen>
+                    </rel:betalingsvoorkeuren>
+                </rel:relatie>
+                <rel:relatie>
+                    <rel:identifier>2528fcc6-95ef-4709-956f-42bb28846844</rel:identifier>
+                    <rel:relatieGegevens>
+                        <rel:voornamen>Syntax</rel:voornamen>
+                        <rel:voorletters>S.</rel:voorletters>
+                        <rel:voorvoegsel />
+                        <rel:geslachtsnaam>Terror</rel:geslachtsnaam>
+                        <rel:geslacht>O</rel:geslacht>
+                        <rel:geboortedatum />
+                    </rel:relatieGegevens>
+                    <rel:communicatieGegevens>
+                        <cmn:emailadressen>
+                            <cmn:emailadres>maati@actualcyber.space</cmn:emailadres>
+                        </cmn:emailadressen>
+                        <cmn:telefoonnummers>
+                            <cmn:telefoonnummer />
+                        </cmn:telefoonnummers>
+                        <cmn:bezoekadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:bezoekadressen>
+                        <cmn:postadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:postadressen>
+                        <cmn:factuuradressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:factuuradressen>
+                    </rel:communicatieGegevens>
+                    <rel:betalingsvoorkeuren>
+                        <rel:indicatieAutomatischBetalen>Ja</rel:indicatieAutomatischBetalen>
+                    </rel:betalingsvoorkeuren>
+                </rel:relatie>
+                <rel:relatie>
+                    <rel:identifier>8ff0d507-4fae-4949-814c-b47d0dda8d72</rel:identifier>
+                    <rel:relatieGegevens>
+                        <rel:voornamen>Molly</rel:voornamen>
+                        <rel:voorletters>M.</rel:voorletters>
+                        <rel:voorvoegsel />
+                        <rel:geslachtsnaam>Mauk</rel:geslachtsnaam>
+                        <rel:geslacht>F</rel:geslacht>
+                        <rel:geboortedatum />
+                    </rel:relatieGegevens>
+                    <rel:communicatieGegevens>
+                        <cmn:emailadressen>
+                            <cmn:emailadres>molly@actualcyber.space</cmn:emailadres>
+                        </cmn:emailadressen>
+                        <cmn:telefoonnummers>
+                            <cmn:telefoonnummer />
+                        </cmn:telefoonnummers>
+                        <cmn:bezoekadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam>Weesperstraat</cmn:straatnaam>
+                                <cmn:huisnummer>33</cmn:huisnummer>
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode>1018 DN</cmn:postcode>
+                                <cmn:plaats>Amsterdam</cmn:plaats>
+                                <cmn:land>NL</cmn:land>
+                            </cmn:adres>
+                        </cmn:bezoekadressen>
+                        <cmn:postadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:postadressen>
+                        <cmn:factuuradressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:factuuradressen>
+                    </rel:communicatieGegevens>
+                    <rel:betalingsvoorkeuren>
+                        <rel:indicatieAutomatischBetalen>Ja</rel:indicatieAutomatischBetalen>
+                    </rel:betalingsvoorkeuren>
+                </rel:relatie>
+                <rel:relatie>
+                    <rel:identifier>1a0e61c4-69f0-498f-9d07-35936fdb7f2c</rel:identifier>
+                    <rel:relatieGegevens>
+                        <rel:voornamen>Mister</rel:voornamen>
+                        <rel:voorletters>M.</rel:voorletters>
+                        <rel:voorvoegsel />
+                        <rel:geslachtsnaam>Ko-Masked-i</rel:geslachtsnaam>
+                        <rel:geslacht>M</rel:geslacht>
+                        <rel:geboortedatum>19641215</rel:geboortedatum>
+                    </rel:relatieGegevens>
+                    <rel:communicatieGegevens>
+                        <cmn:emailadressen>
+                            <cmn:emailadres>mehr.masked-crmacp@kvk.nl</cmn:emailadres>
+                        </cmn:emailadressen>
+                        <cmn:telefoonnummers>
+                            <cmn:telefoonnummer />
+                        </cmn:telefoonnummers>
+                        <cmn:bezoekadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam>Weesperstraat</cmn:straatnaam>
+                                <cmn:huisnummer>33</cmn:huisnummer>
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode>1018 DN</cmn:postcode>
+                                <cmn:plaats>Amsterdam</cmn:plaats>
+                                <cmn:land>NL</cmn:land>
+                            </cmn:adres>
+                        </cmn:bezoekadressen>
+                        <cmn:postadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:postadressen>
+                        <cmn:factuuradressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:factuuradressen>
+                    </rel:communicatieGegevens>
+                    <rel:betalingsvoorkeuren>
+                        <rel:indicatieAutomatischBetalen>Ja</rel:indicatieAutomatischBetalen>
+                    </rel:betalingsvoorkeuren>
+                </rel:relatie>
+                <rel:relatie>
+                    <rel:identifier>85fa28bd-1a3c-4462-bde7-36de4036194f</rel:identifier>
+                    <rel:relatieGegevens>
+                        <rel:voornamen>Me-Masked-n</rel:voornamen>
+                        <rel:voorletters>M.</rel:voorletters>
+                        <rel:voorvoegsel />
+                        <rel:geslachtsnaam>Ko-Masked-i</rel:geslachtsnaam>
+                        <rel:geslacht>O</rel:geslacht>
+                        <rel:geboortedatum>19641215</rel:geboortedatum>
+                    </rel:relatieGegevens>
+                    <rel:communicatieGegevens>
+                        <cmn:emailadressen>
+                            <cmn:emailadres>mehr.masked-crmacp@kvk.nl</cmn:emailadres>
+                        </cmn:emailadressen>
+                        <cmn:telefoonnummers>
+                            <cmn:telefoonnummer />
+                        </cmn:telefoonnummers>
+                        <cmn:bezoekadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam>Baron G.A. Tindalplein</cmn:straatnaam>
+                                <cmn:huisnummer>193</cmn:huisnummer>
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode>1019 TW</cmn:postcode>
+                                <cmn:plaats>Amsterdam</cmn:plaats>
+                                <cmn:land>NL</cmn:land>
+                            </cmn:adres>
+                        </cmn:bezoekadressen>
+                        <cmn:postadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:postadressen>
+                        <cmn:factuuradressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:factuuradressen>
+                    </rel:communicatieGegevens>
+                    <rel:betalingsvoorkeuren>
+                        <rel:indicatieAutomatischBetalen>Ja</rel:indicatieAutomatischBetalen>
+                    </rel:betalingsvoorkeuren>
+                </rel:relatie>
+                <rel:relatie>
+                    <rel:identifier>9b89a792-4b2e-418d-b4db-f2f5151cc434</rel:identifier>
+                    <rel:relatieGegevens>
+                        <rel:voornamen>me-Masked-n</rel:voornamen>
+                        <rel:voorletters>m.</rel:voorletters>
+                        <rel:voorvoegsel />
+                        <rel:geslachtsnaam>Ko-Masked-i</rel:geslachtsnaam>
+                        <rel:geslacht>O</rel:geslacht>
+                        <rel:geboortedatum />
+                    </rel:relatieGegevens>
+                    <rel:communicatieGegevens>
+                        <cmn:emailadressen>
+                            <cmn:emailadres>mehr.masked-crmacp@kvk.nl</cmn:emailadres>
+                        </cmn:emailadressen>
+                        <cmn:telefoonnummers>
+                            <cmn:telefoonnummer />
+                        </cmn:telefoonnummers>
+                        <cmn:bezoekadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:bezoekadressen>
+                        <cmn:postadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:postadressen>
+                        <cmn:factuuradressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:factuuradressen>
+                    </rel:communicatieGegevens>
+                    <rel:betalingsvoorkeuren>
+                        <rel:indicatieAutomatischBetalen>Ja</rel:indicatieAutomatischBetalen>
+                    </rel:betalingsvoorkeuren>
+                </rel:relatie>
+                <rel:relatie>
+                    <rel:identifier>da664893-3b0d-45d6-9126-f94d683c3082</rel:identifier>
+                    <rel:relatieGegevens>
+                        <rel:voornamen>Me-Masked-n</rel:voornamen>
+                        <rel:voorletters>M.</rel:voorletters>
+                        <rel:voorvoegsel />
+                        <rel:geslachtsnaam>Ko-Masked-i</rel:geslachtsnaam>
+                        <rel:geslacht>M</rel:geslacht>
+                        <rel:geboortedatum>19641215</rel:geboortedatum>
+                    </rel:relatieGegevens>
+                    <rel:communicatieGegevens>
+                        <cmn:emailadressen>
+                            <cmn:emailadres>mehr.masked-crmacp@kvk.nl</cmn:emailadres>
+                        </cmn:emailadressen>
+                        <cmn:telefoonnummers>
+                            <cmn:telefoonnummer />
+                        </cmn:telefoonnummers>
+                        <cmn:bezoekadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam>Baron G.A. Tindalplein</cmn:straatnaam>
+                                <cmn:huisnummer>193</cmn:huisnummer>
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode>1019 TW</cmn:postcode>
+                                <cmn:plaats>Amsterdam</cmn:plaats>
+                                <cmn:land>NL</cmn:land>
+                            </cmn:adres>
+                        </cmn:bezoekadressen>
+                        <cmn:postadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:postadressen>
+                        <cmn:factuuradressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:factuuradressen>
+                    </rel:communicatieGegevens>
+                    <rel:betalingsvoorkeuren>
+                        <rel:indicatieAutomatischBetalen>Ja</rel:indicatieAutomatischBetalen>
+                    </rel:betalingsvoorkeuren>
+                </rel:relatie>
+                <rel:relatie>
+                    <rel:identifier>0d19d3b6-7675-430c-b5dc-49fe064cac08</rel:identifier>
+                    <rel:relatieGegevens>
+                        <rel:voornamen>Me-Masked-n</rel:voornamen>
+                        <rel:voorletters>M.</rel:voorletters>
+                        <rel:voorvoegsel>f</rel:voorvoegsel>
+                        <rel:geslachtsnaam>ko-Masked-i</rel:geslachtsnaam>
+                        <rel:geslacht>O</rel:geslacht>
+                        <rel:geboortedatum />
+                    </rel:relatieGegevens>
+                    <rel:communicatieGegevens>
+                        <cmn:emailadressen>
+                            <cmn:emailadres>mehr.masked-crmacp@kvk.nl</cmn:emailadres>
+                        </cmn:emailadressen>
+                        <cmn:telefoonnummers>
+                            <cmn:telefoonnummer />
+                        </cmn:telefoonnummers>
+                        <cmn:bezoekadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:bezoekadressen>
+                        <cmn:postadressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:postadressen>
+                        <cmn:factuuradressen>
+                            <cmn:adres>
+                                <cmn:straatnaam />
+                                <cmn:huisnummer />
+                                <cmn:huisletter />
+                                <cmn:huisnummertoevoeging />
+                                <cmn:postcode />
+                                <cmn:plaats />
+                                <cmn:land />
+                            </cmn:adres>
+                        </cmn:factuuradressen>
+                    </rel:communicatieGegevens>
+                    <rel:betalingsvoorkeuren>
+                        <rel:indicatieAutomatischBetalen>Ja</rel:indicatieAutomatischBetalen>
+                    </rel:betalingsvoorkeuren>
+                </rel:relatie>
+            </rop:relaties>
+        </rop:opvragenRelatieResponse>
+    </s11:Body>
+</s11:Envelope>

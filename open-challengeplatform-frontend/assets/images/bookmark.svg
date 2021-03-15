@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon/bookmark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grid-(desktop)" transform="translate(-610.000000, -372.000000)">
+            <g id="icon/bookmark" transform="translate(604.000000, 365.000000)">
+                <g>
+                    <g id="Kader">
+                        <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+                    </g>
+                    <path d="M48.5,7 L39,7 L39,12 L48.5,12 C50.4,12 52,13.6 52,15.5 L52,49.5 C52,51.4 50.4,53 48.5,53 L14.5,53 C12.6,53 11,51.4 11,49.5 L11,15.5 C11,13.6 12.6,12 14.5,12 L15,12 L15,39 L25,33 L35,39 L35,7 L30,7 L30,30.2 L25,27.2 L20,30.2 L20,7 L14.5,7 C9.8,7 6,10.8 6,15.5 L6,49.5 C6,54.2 9.8,58 14.5,58 L48.5,58 C53.2,58 57,54.2 57,49.5 L57,15.5 C57,10.8 53.2,7 48.5,7 Z" id="Path" fill="#343434" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

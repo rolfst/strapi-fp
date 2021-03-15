@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M32,6.5 C18,6.5 6.5,17.9 6.5,31.9 C6.5,31.9 6.5,31.9 6.5,32 C6.5,46.1 17.9,57.5 32,57.5 C46.1,57.5 57.5,46.1 57.5,32 C57.5,17.9 46.1,6.5 32,6.5 Z M32,52.7 C20.6,52.7 11.3,43.4 11.3,32 C11.3,20.6 20.6,11.3 32,11.3 C43.4,11.3 52.7,20.6 52.7,32 C52.7,43.4 43.5,52.7 32,52.7 Z M42.6,24.9 L35.5,32 L42.6,39.1 L39.1,42.6 L32,35.5 L24.9,42.6 L21.4,39.1 L28.5,32 L21.4,24.9 L24.9,21.4 L32,28.5 L39.1,21.4 L42.6,24.9 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grid-(desktop)" transform="translate(-610.000000, -473.000000)">
+            <g id="icon/cross-circle" transform="translate(604.000000, 467.000000)">
+                <g>
+                    <g id="Kader">
+                        <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+                    </g>
+                    <mask id="mask-2" fill="#fff">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="shape" fill="#343434" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="52px" viewBox="0 0 48 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon/account_outlined</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M44.961245,18.3532221 C44.5735571,11.3106077 39.0013312,6 31.9999575,6 C25.0003687,6 19.4272429,11.3106077 19.038455,18.3527222 C17.8145933,40.5318484 46.1865067,40.5565456 44.961245,18.3532221 Z M23.9454017,18.6306912 C24.5084841,8.42952901 39.4923159,8.44772698 40.0543983,18.6306912 C40.896472,33.8671917 23.1023281,33.88299 23.9454017,18.6306912 Z M31.9980501,37.9992309 C17.8070935,37.9992309 9.44545483,43.269243 8.44848598,52.8759715 L8,58 L12.927246,58 C13.3867317,53.0005576 12.2274679,42.9861746 31.9980501,42.9861746 C51.4460423,42.9861746 50.5726696,52.0006692 51.072654,58 L56,58 C55.519715,53.0005576 56.5829818,37.9992309 31.9980501,37.9992309 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grid-(desktop)" transform="translate(-612.000000, -65.000000)">
+            <g id="icon/person" transform="translate(604.000000, 59.000000)">
+                <g>
+                    <g id="Kader">
+                        <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+                    </g>
+                    <mask id="mask-2" fill="#fff">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#343434" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

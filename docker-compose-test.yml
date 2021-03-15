@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  test:
+    build: ./kvk-test-suite
+    depends_on: 
+      - db
+      - business_challenge_backend
+      - business_challenge_frontend
+    environment:
+      - DEVICE=desktop
+      - ENVIRONMENT=chrome
+    volumes:
+      - ./kvk-test-suite/testsuites:/opt/test/testsuites
+      - ./kvk-test-suite/logs:/opt/test/logs:rw
+      - ./kvk-test-suite/helpers/browserhelper.py:/opt/test/helpers/browserhelper.py
+    command: robot -d logs --timestampoutputs testsuites
+

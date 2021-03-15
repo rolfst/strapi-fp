@@ -1,0 +1,44 @@
+{
+  "connection": "default",
+  "collectionName": "articles",
+  "info": {
+    "name": "article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "summary": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "configurable": false
+    },
+    "banner": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "contentType": {
+      "type": "enumeration",
+      "enum": ["challenge_news", "testimonial", "content"],
+      "default": "challenge_news",
+      "required": true
+    },
+    "challenge_id": {
+      "model": "challenge",
+      "plugin": "challenges"
+    }
+  }
+}

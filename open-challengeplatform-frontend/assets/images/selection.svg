@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M48.0416448,10 L54,13.7231935 L29.028,53.749 L29.0256755,53.7546402 L10,29.4578531 L15.536535,25.1322379 L28.375,41.523 L48.0416448,10 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grid-(desktop)" transform="translate(-54.000000, -273.000000)">
+            <g id="icon/check" transform="translate(44.000000, 263.000000)">
+                <g>
+                    <g id="Kader">
+                        <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+                    </g>
+                    <mask id="mask-2" fill="#fff">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="shape" fill="#343434" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

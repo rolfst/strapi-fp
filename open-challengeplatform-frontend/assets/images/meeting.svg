@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="43px" viewBox="0 0 59 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon/meeting</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grid-(desktop)" transform="translate(-46.000000, -172.000000)">
+            <g id="icon/participants" transform="translate(44.000000, 161.000000)">
+                <g>
+                    <g id="Kader">
+                        <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+                    </g>
+                    <path d="M44,37 C56,37 58,16 44,16 C30,16 32,37 44,37 Z M44,20.8 C52,20.8 50,32.2 44,32.2 C38,32.2 36,20.8 44,20.8 Z M60.8,51.5 C59.8,41.5 48.9,38.9 39.5,40.4 C40.5,41.8 41.2,43.3 41.6,45 C47.9,44.5 55.4,45.5 56,51.8 L56.2,54 L61,54 L60.8,51.5 Z M20,33 C33,33 36,11 20,11 C5,11 8,33 20,33 Z M20.5,15.7 C22.6,15.7 26.2,16 26.2,21 C26.2,31 14.8,31 14.8,21 C14.8,16 18.4,15.7 20.5,15.7 Z M20.5,36 C5.8,36 2.7,43.6 2.2,48.2 L2.1,54 L6.9,54 L7,48.5 C7.5,43.4 12.3,40.9 20.5,40.9 C28.7,40.9 33.5,43.5 34,48.5 L34.1,54 L39,54 L38.8,48.1 C38.4,43.6 35.2,36 20.5,36 Z" id="Shape" fill="#343434" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

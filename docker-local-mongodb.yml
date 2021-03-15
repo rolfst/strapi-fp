@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  db:
+    image: bitnami/mongodb:latest
+    ports:
+      - '27017:27017'
+    environment:
+      - MONGODB_USERNAME=kvk-admin
+      - MONGODB_PASSWORD=kvk-admin
+      - MONGODB_DATABASE=business-challenge
+    volumes:
+      - ./open-challengeplatform-db:/bitnami

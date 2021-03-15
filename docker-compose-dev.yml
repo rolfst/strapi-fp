@@ -1,0 +1,30 @@
+version: "3.7"
+
+services:
+  business_challenge_backend:
+    ports:
+      - 1337:1337
+    environment:
+      - NODE_ENV=development
+    volumes: 
+      - ./open-challengeplatform-backend:/opt/app/
+      - /opt/app/node_modules
+    command: "node ./node_modules/.bin/strapi dev"
+    restart: always
+
+  business_challenge_frontend:
+    environment:
+      - NODE_ENV=development
+    working_dir: /opt/webapps/open-challenge-platform
+    volumes: 
+      - ./open-challengeplatform-frontend:/opt/webapps/open-challenge-platform
+      - /opt/webapps/open-challenge-platform/node_modules
+      - ./open-challengeplatform-frontend/node_modules/@nuxtjs/eslint-config:/opt/webapps/open-challenge-platform/node_modules/@nuxtjs/eslint-config
+      - ./open-challengeplatform-frontend/node_modules/@nuxtjs/eslint-module:/opt/webapps/open-challenge-platform/node_modules/@nuxtjs/eslint-module
+      - ./open-challengeplatform-frontend/node_modules/@nuxtjs/style-resources:/opt/webapps/open-challenge-platform/node_modules/@nuxtjs/style-resources
+      - ./open-challengeplatform-frontend/node_modules/vue-i18n:/opt/webapps/open-challenge-platform/node_modules/vue-i18n
+      - ./open-challengeplatform-frontend/node_modules/glob-all:/opt/webapps/open-challenge-platform/node_modules/glob-all
+    command: "npm run dev"
+
+volumes:
+  node_modules:

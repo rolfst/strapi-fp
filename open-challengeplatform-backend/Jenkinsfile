@@ -1,0 +1,20 @@
+pipeline {
+    agent { node('kvk-node1') }
+    stages {
+        stage('Initialize NPM') {
+            steps {
+                sh 'npm install'                  
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'npm run build'                  
+            }
+        }
+        stage('SonarQube') {
+            steps {
+                sh 'sonar-scanner'                  
+            }
+        }
+    }
+}

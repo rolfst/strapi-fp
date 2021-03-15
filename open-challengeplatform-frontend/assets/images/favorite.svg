@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="49px" viewBox="0 0 50 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon/favorite</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grid-(desktop)" transform="translate(-43.000000, -780.000000)">
+            <g id="icon/favorite" transform="translate(36.000000, 773.000000)">
+                <g>
+                    <g id="Kader">
+                        <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+                    </g>
+                    <path d="M57,21.1 C56.7,16.8 54.8,12.8 51.8,10.3 C49.2,8.2 45.8,7 42.4,7 C37.2,7 34,9.2 32,11.9 C30.1,9.2 26.8,7 21.6,7 C18.2,7 14.8,8.2 12.2,10.3 C9.2,12.7 7.3,16.8 7,21.1 C6.8,24.8 7.7,30.4 13.2,36.1 C22.6,45.8 32,55.6 32,55.6 C32,55.6 41.4,45.8 50.7,36.1 C56.3,30.4 57.2,24.8 57,21.1 Z M47.2,32.6 C40.5,39.5 34.8,45.5 32,48.4 C29.2,45.5 23.5,39.5 16.8,32.6 C12.5,28.2 11.8,24 12,21.4 C12.2,17.9 13.9,15.4 15.3,14.2 C17,12.8 19.3,12 21.6,12 C28.7,12 29.4,18.4 29.5,19 C29.6,19.9 30.3,21 32.1,21 C33.8,21 34.3,19.8 34.5,19 C34.6,18.3 35.2,12 42.4,12 C44.6,12 47,12.8 48.7,14.2 C50.2,15.4 51.8,17.9 52,21.4 C52.1,24.1 51.4,28.2 47.2,32.6 Z" id="Shape" fill="#343434" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

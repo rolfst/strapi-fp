@@ -1,0 +1,11 @@
+.git
+node_modules
+npm-debug
+
+*.swo
+*.swp
+*.swn
+*.swm
+*.out
+*.pid
+*.orig

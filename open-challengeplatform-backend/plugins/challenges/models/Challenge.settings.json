@@ -1,0 +1,90 @@
+{
+  "connection": "default",
+  "collectionName": "challenges",
+  "info": {
+    "name": "challenge",
+    "description": ""
+  },
+  "options": {
+    "timestamps": ["createdAt", "updatedAt"]
+  },
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "configurable": false
+    },
+    "updatedBy": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "required": true
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": ["unpublished", "published", "archived"],
+      "default": "unpublished",
+      "required": true
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "publish_date": {
+      "type": "datetime"
+    },
+    "short_summary": {
+      "type": "text"
+    },
+    "summary": {
+      "type": "text",
+      "required": true
+    },
+    "long_summary": {
+      "type": "text"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "tags": {
+      "type": "array"
+    },
+    "stages": {
+      "component": "stage.stage",
+      "repeatable": true,
+      "type": "component"
+    },
+    "hero": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "attachments": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "moderators": {
+      "collection": "user",
+      "plugin": "users-permissions"
+    },
+    "highlights": {
+      "type": "array"
+    },
+    "nominees": {
+      "collection": "user",
+      "plugin": "users-permissions"
+    },
+    "company": {
+      "component": "company.company",
+      "type": "component"
+    },
+    "video": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+[submodule "open-challengeplatform-frontend"]
+	path = open-challengeplatform-frontend
+	url = https://gitlab.sogeticloudservices.com/kvk/open-challengeplatform-frontend.git
+[submodule "open-challengeplatform-backend"]
+	path = open-challengeplatform-backend
+	url = https://gitlab.sogeticloudservices.com/kvk/open-challengeplatform-backend.git
+[submodule "kvk-test-suite"]
+	path = kvk-test-suite
+	url = https://gitlab.sogeticloudservices.com/kvk/kvk-test-suite.git

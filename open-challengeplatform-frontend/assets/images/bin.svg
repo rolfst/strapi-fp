@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="54px" viewBox="0 0 44 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon/bin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M43.7075,14.5 L40.681,5.5 L23.2343,5.5 L20.2109,14.5 L10,14.5 L10,19.5 L54,19.5 L54,14.5 L43.7075,14.5 Z M25.4862,14.5 L26.8301,10.5 L37.0872,10.5 L38.432,14.5 L25.4862,14.5 L25.4862,14.5 Z M46,53.5 L18,53.5 L18,23.5 L13,23.5 L13,58.5 L51,58.5 L51,23.5 L46,23.5 L46,53.5 Z M24,23.5 L24,48.5 L29,48.5 L29,23.5 L24,23.5 Z M35,23.5 L35,48.5 L40,48.5 L40,23.5 L35,23.5 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grid-(desktop)" transform="translate(-54.000000, -574.000000)">
+            <g id="icon/trash" transform="translate(44.000000, 569.000000)">
+                <g>
+                    <g id="Kader">
+                        <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+                    </g>
+                    <mask id="mask-2" fill="#fff">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#343434" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

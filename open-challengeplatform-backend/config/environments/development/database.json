@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "database": "business-challenge",
+        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
+        "port": "${process.env.DATABASE_PORT || 27017}",
+        "srv": false,
+        "username": "kvk-admin",
+        "password": "kvk-admin"
+      },
+      "options": {
+        "authenticationDatabase": "business-challenge"
+      }
+    }
+  }
+}

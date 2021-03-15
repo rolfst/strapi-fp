@@ -1,0 +1,12 @@
+{
+  "name": "hook-eventbus",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Business Challenge Platform for KVK the backend",
+  "author": "Sogeti",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "private"
+}

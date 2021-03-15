@@ -1,0 +1,33 @@
+|  method |  endpoint         |
+| --------| ------------------|
+|  GET    | /challenges/      |
+|  GET    | /challenges/:slug |
+|  PATCH  | /challenges/:slug |
+|  PUT    | /challenges/:slug |
+|  DELETE | /challenges/:slug |
+|  POST   | /challenges/  |
+|  POST   | /challenges/search |
+|  GET    | /challenges/:challenge_slug/reactions |
+|  GET    | /reactions |
+|  POST   | /reactions/search |
+|  GET    | /challenges/:challenge_slug/reactions/count |
+|  GET    | /challenges/:challenge_slug/reactions/:slug |
+|  POST   | /challenges/:challenge_slug/reactions |
+|  POST   | /challenges/:challenge_slug/reactions/:slug |
+|  PUT    | /challenges/:challenge_slug/reactions/:slug |
+|  DELETE | /challenges/:challenge_slug/reactions/:slug |
+|  PATCH  | /challenges/:challenge_slug/reactions/:slug |
+|  GET    | /challenges/:challenge_slug/articles |
+|  GET    | /challengeFilters |
+|  GET    | /tags |
+|  GET    | /articles |
+|  POST   | /articles/search |
+|  GET    | /articles/:slug |
+|  DELETE | /articles/:slug |
+|  GET    | /users/        |
+|  GET    | /users/me/      |
+|  POST   | /users/me/upload |
+|  GET    | /users/:userid |
+|  PATCH  | /interest      |  
+|  GET    | /favorites   |
+

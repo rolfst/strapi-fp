@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="52px" viewBox="0 0 62 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M40.5537901,53.3996491 L62.5,10.2226541 C61.323488,9.31243368 60.9396457,9.01630892 57.6870606,6.5 L1.5,17.8891288 L14.1520877,29.2925879 L18.6977479,26.6282667 L12.2551409,20.8220166 L49.4512753,13.2835119 L17.2127516,32.1631442 L17.2127516,57.5 L28.8012636,48.3616198 L24.9900418,44.9740727 L22.2500524,47.135533 L22.2500524,37.1638948 L40.5537901,53.3996491 L40.5537901,53.3996491 Z M53.5681605,16.6843871 L39.0106634,45.322107 L25.3497051,33.2073473 L53.5681605,16.6843871 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grid-(desktop)" transform="translate(-45.000000, -167.000000)">
+            <g id="icon/paperplane" transform="translate(44.000000, 161.000000)">
+                <g>
+                    <g id="Kader">
+                        <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+                    </g>
+                    <mask id="mask-2" fill="#fff">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#343434" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

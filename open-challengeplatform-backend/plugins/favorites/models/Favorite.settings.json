@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "favorite_favorite",
+  "info": {
+    "name": "favorite",
+    "description": ""
+  },
+  "options": {
+    "timestamps": ["createdAt", "updatedAt"]
+  },
+  "attributes": {
+    "owner_id": {
+      "required": true,
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    }
+  }
+}

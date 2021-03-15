@@ -1,0 +1,37 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "articles.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/",
+      "handler": "articles.create",
+      "config": {
+        "roles": ["admin", "moderator", "kvk-moderator", "kvk-admin"],
+        "policies": ["global.crmInterceptor"]
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/search",
+      "handler": "articles.search",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/:slug",
+      "handler": "articles.findOne",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

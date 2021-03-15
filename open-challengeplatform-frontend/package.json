@@ -1,0 +1,85 @@
+{
+  "name": "open-challengeplatform-frontend",
+  "version": "1.0.0",
+  "description": "Business Challenge Platform for KVK",
+  "author": "Sogeti",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env HOST=0.0.0.0 NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "(node modules/custom-build-modules/csv-json.js) & nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "test": "jest",
+    "translate": "node modules/custom-build-modules/csv-json.js"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "precise-commits"
+    }
+  },
+  "hooks": {
+    "pre-commit": [
+      {
+        "message": "You’ve got leftover conflict markers",
+        "regex": "/^[<>|=]{4,}/m"
+      },
+      {
+        "filter": "\\.js$",
+        "message": "You’ve got leftover `console.log`",
+        "regex": "console\\.log"
+      },
+      {
+        "message": "You have unfinished devs",
+        "nonBlocking": "true",
+        "regex": "(?:FIXME|TODO)"
+      }
+    ]
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "cross-env": "^5.2.0",
+    "csv-parse": "^4.4.7",
+    "date-fns": "^1.29.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "nuxt": "^2.0.0",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "papaparse": "^5.1.1",
+    "pell": "^1.0.6",
+    "sass-resources-loader": "^2.0.1",
+    "striptags": "^3.1.1",
+    "vue-airbnb-style-datepicker": "^2.7.1",
+    "vue-i18n": "^8.14.1",
+    "vue-scrollto": "^2.17.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "git-precommit-checks": "^2.3.3",
+    "husky": "^3.0.4",
+    "jest": "^24.1.0",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.18.9",
+    "precise-commits": "^1.0.2",
+    "prettier": "^1.18.2",
+    "sass-loader": "^8.0.0",
+    "vue-jest": "^4.0.0-0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

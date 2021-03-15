@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+  business_challenge_backend:
+    build: ./open-challengeplatform-backend
+    ports: 
+      - 1337:1337
+    environment:
+      - NODE_ENV=production
+    command: "strapi start"
+
+  business_challenge_frontend:
+    environment:
+      - NODE_ENV=production
+      - PROD_ENV=/build
+
+  db:
+    volumes:
+      - data_volume:/bitnami
+
+volumes:
+  data_volume:
+

@@ -1,0 +1,30 @@
+{
+  "name": "strapi-plugin-challenges",
+  "version": "0.0.0",
+  "description": "This plugin manages the workings of challenges on the KvK Open innovation platform",
+  "strapi": {
+    "name": "challenges",
+    "icon": "plug",
+    "description": "Description of kvk-challenges plugin."
+  },
+  "dependencies": {
+    "crocks": "^0.12.4"
+  },
+  "author": {
+    "name": "A Strapi developer",
+    "email": "",
+    "url": ""
+  },
+  "maintainers": [
+    {
+      "name": "Sogeti",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

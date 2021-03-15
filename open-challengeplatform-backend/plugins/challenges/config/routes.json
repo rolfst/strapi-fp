@@ -1,0 +1,194 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "Challenges.index",
+      "config": {
+        "policies": ["global.crmOptional"],
+        "description": "list all challenges",
+        "tag": {
+          "plugin": "challenges",
+          "name": "Challenge",
+          "actionType": "find"
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/:slug",
+      "handler": "Challenges.findOne",
+      "config": {
+        "policies": ["global.crmOptional"],
+        "description": "list a single challenges",
+        "tag": {
+          "plugin": "challenges",
+          "name": "Challenge",
+          "actionType": "find"
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/:challenge_slug/articles",
+      "handler": "Challenges.findArticles",
+      "config": {
+        "policies": []
+      }
+    },
+        {
+      "method": "GET",
+      "path": "/:challenge_slug/articles/:slug",
+      "handler": "Challenges.findArticle",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PATCH",
+      "path": "/:slug",
+      "handler": "Challenges.patch",
+      "config": {
+        "policies": ["global.crmInterceptor"],
+        "roles": ["admin", "moderator", "kvk-moderator", "kvk-admin"]
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/",
+      "handler": "Challenges.create",
+      "config": {
+        "policies": ["global.crmInterceptor", "plugins.challenges.parseMultiPart", "plugins.challenges.challengeValidate", "global.auth"],
+        "roles": ["admin", "kvk-moderator", "kvk-admin"]
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/search",
+      "handler": "Challenges.search",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/:slug",
+      "handler": "Challenges.update",
+      "config": {
+        "policies": ["global.crmInterceptor", "plugins.challenges.parseMultiPart", "plugins.challenges.challengeValidate"],
+        "roles": ["admin", "moderator", "kvk-moderator", "kvk-admin"]
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/:challenge_slug/reactions",
+      "handler": "Reactions.index",
+      "config": {
+        "policies": ["global.crmOptional"]
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/:challenge_slug/participants",
+      "handler": "Challenges.findParticipants",
+      "config": {
+        "policies": ["global.crmOptional"]
+      }
+    },
+        {
+      "method": "GET",
+      "path": "/:challenge_slug/highlights",
+      "handler": "Challenges.findHighlights",
+      "config": {
+        "policies": ["global.crmOptional"]
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reactions",
+      "handler": "Reactions.index",
+      "config": {
+        "policies": ["global.crmOptional"],
+        "prefix": false
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/:challenge_slug/reactions/count",
+      "handler": "Reactions.count",
+      "config": {
+        "policies": ["global.crmOptional"]
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/:challenge_slug/reactions/:slug",
+      "handler": "Reactions.findOne",
+      "config": {
+        "policies": ["global.crmOptional"]
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/:challenge_slug/reactions",
+      "handler": "Reactions.create",
+      "config": {
+        "policies": ["global.crmInterceptor", "global.auth"],
+        "roles": ["admin", "moderator", "kvk-moderator", "kvk-admin", "participant"]
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/:challenge_slug/reactions/:slug",
+      "handler": "Reactions.create",
+      "config": {
+        "policies": ["global.crmInterceptor"],
+        "roles": ["admin", "moderator", "kvk-moderator", "kvk-admin", "participant"]
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/:challenge_slug/reactions/:slug",
+      "handler": "Reactions.update",
+      "config": {
+        "policies": ["global.crmInterceptor"],
+        "roles": ["admin", "moderator", "kvk-moderator", "kvk-admin", "participant"]
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/:challenge_slug/reactions/:slug",
+      "handler": "Reactions.remove",
+      "config": {
+        "policies": ["global.crmInterceptor"],
+        "roles": ["admin", "moderator", "kvk-moderator", "kvk-admin", "participant"]
+      }
+    },
+    {
+      "method": "PATCH",
+      "path": "/:challenge_slug/reactions/:slug",
+      "handler": "Reactions.patch",
+      "config": {
+        "policies": ["global.crmInterceptor"],
+        "roles": ["admin", "moderator", "kvk-moderator", "kvk-admin", "participant"]
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reactions/search",
+      "handler": "Reactions.search",
+      "config": {
+        "policies": [],
+        "prefix": false
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/challengeFilters",
+      "handler": "Filters.index",
+      "config": {
+        "prefix": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "tags",
+  "info": {
+    "name": "tag",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "required": true,
+      "unique": true
+    }
+  }
+}

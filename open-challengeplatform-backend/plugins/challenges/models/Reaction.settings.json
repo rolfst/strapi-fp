@@ -1,0 +1,65 @@
+{
+  "connection": "default",
+  "collectionName": "reactions",
+  "info": {
+    "name": "reaction",
+    "description": "This is the item that holds a discussion item made by a user"
+  },
+  "options": {
+    "timestamps": ["createdAt", "updatedAt"]
+  },
+  "attributes": {
+    "updated_by": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "created_by": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "minLength": 2,
+      "required": true,
+      "type": "text"
+    },
+    "depth": {
+      "type": "integer"
+    },
+    "reaction_id": {
+      "type": "string"
+    },
+    "full_slug": {
+      "type": "string"
+    },
+    "attachments": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "challenge_id": {
+      "model": "challenge",
+      "plugin": "challenges"
+    },
+    "parent_id": {
+      "model": "reaction",
+      "plugin": "challenges"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": ["removed", "active"],
+      "default": "active",
+      "required": true,
+      "private": true
+    },
+    "redaction": {
+      "type": "string",
+      "private": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "soapbox": {
+    "host": "https://webservices.acp.kvk.nl/postbus4",
+    "actor": "http://ws.kvk.nl/IL",
+    "wsse": {
+      "username": "${process.env.CRMUSER || ''}",
+      "password": "${process.env.CRMPASS || ''}"
+    },
+    "relatie": {
+      "schemas": "http://schemas.kvk.nl/schemas/kld/relatie/types/2016/01",
+      "wsaTo": "http://ws.kvk.nl/KLD-Relatie/2016/01",
+      "opvragenAction": "http://ws.kvk.nl/opvragenRelatie"
+    },
+    "cert": {
+      "pp": "${process.env.CERTPASS || ''}"
+    }
+  },
+  "mijnStartHostString": "mijnstart/",
+  "roles": ["kvk-admin", "moderator", "kvk-moderator", "participant", "admin"],
+  "defaultRole": "participant",
+  "filters": [
+    { "filter": "all", "method": "type", "roles": ["admin", "moderator", "kvk-moderator", "public"] },
+    { "filter": "my", "method": "type", "roles": ["admin", "moderator", "kvk-moderator"] },
+    { "filter": "favorite", "method": "type", "roles": ["admin", "moderator", "kvk-moderator", "public"] },
+    { "filter": "current", "method": "status", "roles": ["admin", "moderator", "kvk-moderator", "public"] },
+    { "filter": "closed", "method": "status", "roles": ["admin", "moderator", "kvk-moderator", "public"] },
+    { "filter": "unpublished", "method": "status", "roles": ["admin", "moderator", "kvk-moderator"] },
+    { "filter": "upcoming", "method": "status", "roles": ["admin", "moderator", "kvk-moderator", "public"] },
+    { "filter": "archived", "method": "status", "roles": ["admin", "moderator", "kvk-moderator", "public"] }
+  ]
+}

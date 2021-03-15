@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="36px" viewBox="0 0 44 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon/menu</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grid-(desktop)" transform="translate(-54.000000, -73.000000)">
+            <g id="icon/hamburger" transform="translate(44.000000, 59.000000)">
+                <g>
+                    <g id="Kader">
+                        <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+                    </g>
+                    <path d="M10,14.5 L10,19.5 L54,19.5 L54,14.5 L10,14.5 Z M10,34.5 L54,34.5 L54,29.5 L10,29.5 L10,34.5 Z M10,49.5 L54,49.5 L54,44.5 L10,44.5 L10,49.5 Z" id="Shape" fill="#343434"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

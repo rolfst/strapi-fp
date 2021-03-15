@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  stub:
+    build: ./open-challengeplatform-stubby
+    ports:
+      - 5005:5005
+    environment:
+      - NODE_ENV=development
+    restart: always
+

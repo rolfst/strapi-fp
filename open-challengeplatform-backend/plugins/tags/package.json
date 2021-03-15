@@ -1,0 +1,28 @@
+{
+  "name": "strapi-plugin-tags",
+  "version": "0.0.1",
+  "description": "This plugin manages the tags on the kvk Open innovation platform",
+  "strapi": {
+    "name": "tags",
+    "icon": "plug",
+    "description": "Description of tags plugin."
+  },
+  "dependencies": {},
+  "author": {
+    "name": "A Strapi developer",
+    "email": "",
+    "url": ""
+  },
+  "maintainers": [
+    {
+      "name": "Sogeti",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

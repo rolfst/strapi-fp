@@ -1,0 +1,66 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/users/upload",
+      "handler": "User.updateProfilePicture",
+      "config": {
+        "prefix": "",
+        "description": "",
+        "policies": ["global.crmInterceptor", "plugins.challenges.parseMultiPart"]
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/users/me",
+      "handler": "Crm.connect",
+      "config": {
+        "policies": ["global.crmInterceptor"],
+        "prefix": "",
+        "description": "",
+        "tag": {
+          "plugin": "users-permissions",
+          "name": "User"
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/users/:username",
+      "handler": "User.findOne",
+      "config": {
+        "policies": ["global.crmOptional"],
+        "prefix": "",
+        "description": "Retrieve a single user by username",
+        "tag": {
+          "plugin": "users-permissions",
+          "name": "User",
+          "actionType": "findOne"
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/moderators",
+      "handler": "User.findModerators",
+      "config": {
+        "policies": ["global.crmInterceptor"],
+        "prefix": "false",
+        "description": "Retrieve the moderators",
+        "tag": {
+          "plugin": "users-permissions",
+          "name": "User"
+        }
+      }
+    },
+    {
+      "method": "PATCH",
+      "path": "/interest",
+      "handler": "Interest.patch",
+      "config": {
+        "policies": ["global.crmInterceptor"],
+        "prefix": false
+      }
+    }
+  ]
+}

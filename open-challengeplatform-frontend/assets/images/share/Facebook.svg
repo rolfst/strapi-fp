@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <circle id="path-1" cx="21" cy="21" r="21"></circle>
+    </defs>
+    <g id="Icons/Filled/Facebook" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" points="0 0 42 0 42 42 0 42"></polygon>
+        <g id="Mixin/Fill/KVK-Purple-(Prim)">
+            <mask id="mask-2" fill="#fff">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Oval" fill="#D8D8D8" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)" fill="#AA418C" id="Container">
+                <rect x="0" y="0" width="42" height="42"></rect>
+            </g>
+        </g>
+        <path d="M29.8863636,11 L12.1136364,11 C11.498592,11 11,11.498592 11,12.1136364 L11,12.1136364 L11,29.8863636 C11,30.501408 11.498592,31 12.1136364,31 L21.6818182,31 L21.6818182,23.2727273 L19.0863636,23.2727273 L19.0863636,20.2363636 L21.6818182,20.2363636 L21.6818182,18.0181818 C21.6818182,15.4318182 23.2636364,14.0272727 25.5727273,14.0272727 C26.3406966,14.015111 27.1087115,14.048503 27.8727273,14.1272727 L27.8727273,16.8045455 L26.3,16.8045455 C25.05,16.8045455 24.8045455,17.4318182 24.8045455,18.2772727 L24.8045455,20.2045455 L27.8181818,20.2045455 L27.4318182,23.2318182 L24.8045455,23.2318182 L24.8045455,31 L29.8863636,31 C30.501408,31 31,30.501408 31,29.8863636 L31,12.1136364 C31,11.498592 30.501408,11 29.8863636,11 Z" id="path-1" fill="#fff"></path>
+    </g>
+</svg>

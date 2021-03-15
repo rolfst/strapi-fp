@@ -1,0 +1,39 @@
+version: "3.7"
+
+services:
+  db:
+    image: bitnami/mongodb:latest
+    ports:
+      - '27017:27017'
+    environment:
+      - MONGODB_USERNAME=kvk-admin
+      - MONGODB_PASSWORD=kvk-admin
+      - MONGODB_DATABASE=business-challenge
+
+
+  business_challenge_backend:
+    build: ./open-challengeplatform-backend
+    volumes:
+      - ./open-challengeplatform-backend:/opt/app
+    ports:
+      - 3000:3000
+      - 9228:9229
+    depends_on: 
+      - db
+    environment:
+      - DATABASE_HOST=db
+    links:
+      - db
+    # command: "./strapi.sh"
+    command: "node ./node_modules/.bin/strapi dev"
+    restart: always
+
+  business_challenge_frontend:
+    build: ./open-challengeplatform-frontend
+    image: app
+    container_name: bc-frontend
+    ports:
+      - 5000:5000
+      - 9229:9229
+    # command: "node --inspect=0.0.0.0:9229 ./server/index.js"
+    command: "node server/index.js"

@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "filters",
+  "info": {
+    "name": "filter",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "filter": {
+      "type": "string",
+      "required": true
+    },
+    "method": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "type",
+        "status"
+      ]
+    },
+    "updatedBy": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "roles": {
+      "type": "array"
+    }
+  }
+}
